@@ -1,0 +1,197 @@
+
+@font-face {
+  font-family:Poppins-Medium;
+  src: url(./Poppins/Poppins-Medium.ttf  );
+}
+@font-face {
+    font-family:Poppins-bold;
+    src: url(./Poppins/Poppins-Bold.ttf  );
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Poppins-Medium;
+}
+main{
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    height: 1920px;
+    /* border: 1px solid black; */
+}
+header{
+    background-color:#002254;
+}
+.font-size-1{
+    font-size: 1.8rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #CDEDEF;
+}
+
+.day-information{
+    display: flex;
+    font-size: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+}
+.temperature, .date{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 2.5rem;
+    letter-spacing: .2rem;
+}
+
+.time{
+    font-size: 11rem;
+   text-align: center;
+   font-weight: bolder;
+   height: 210px;
+   /* border: 1px solid rgb(223, 27, 27); */
+   margin-top: 3rem;
+   margin-bottom: 1.49rem;
+}
+.logo{
+    display: flex;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    color: #00FFD0;
+    letter-spacing: .3rem;
+}
+.logo h2{
+    font-size: 9rem;
+}
+.logo img{
+    width: 150px;
+    height: 130px;
+    margin-left: 3rem;
+}
+.pageNo{
+    font-size: 3rem;
+   text-align: center;
+}
+.temp{
+    margin-right: 1rem;
+}
+.day-information span{
+    font-size: 2.5rem;
+}
+.flight-information-nav{
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.3rem 0;
+    background: rgba(9, 41, 102, 0.2);
+    color: #000000;
+}
+.span1{
+    margin: 0 3.4rem;
+}
+.span3{
+    margin: 0 3.5rem;
+}
+.span5{
+    margin-right:6rem ;
+    margin-left: auto;
+}
+.flight-details-container {
+    display: flex;
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: black;
+}
+.timespan{
+    padding-right: 5rem;
+}
+.text:nth-child(2n+1) {
+    background: rgba(9, 41, 102, 0.2);
+}
+.text{
+    display: flex;
+    justify-content: center;
+    height: 136px;
+    align-items: center;
+   text-align: center;
+}
+.styling{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+ 
+  
+}
+.st-1{
+    width: 200px;
+    color: rgb(44, 177, 153);
+    text-align: center;
+}
+.airline{
+    width: 200px;
+}
+.st-2{
+    width: 150px;
+}
+
+.st-3{
+    width: 240px;
+    flex-direction: column;
+}
+
+.st-4{
+    width: 160px;
+    font-family:Poppins-bold;
+}
+.sta{
+   
+    width: 325px;
+  
+}
+
+.st-5{
+width: 325px;
+display: flex;
+text-align: center;
+
+}
+.additional-information{
+    background: rgba(255, 53, 53, 0.6);
+   height: 130px;
+}
+footer{
+    display:flex ;
+    background-color: #002254;
+    height: 110px;
+    align-items: center;
+}
+footer img{
+    padding-left: .4rem;
+    width: 250px;
+    height: 40px;
+}
+.footer-detail{
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    color: rgb(255, 255, 255);
+}
+.footer-detail a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+.qrcode{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.qrcode img{
+    width: 220px;
+}
